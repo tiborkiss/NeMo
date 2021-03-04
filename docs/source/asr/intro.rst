@@ -13,8 +13,26 @@ Thus, we can see the appeal of end-to-end ASR architectures: discriminative mode
 
 And the entire end-to-end ASR model can be trained at once--a much easier pipeline to handle!
 
-Speech recognition tutorial notebooks can be found under ``<NeMo_Git_root>/tutorials/asr/``
+Resource and Documentation Guide
+--------------------------------
 
+Hands-on speech recognition tutorial notebooks can be found under ``<NeMo_git_root>/tutorials/asr/``.
+If you are a beginner to NeMo, consider trying out the ``<NeMo_git_root>/tutorials/asr/01_ASR_with_NeMo.ipynb`` tutorial.
+
+If you are looking for information about a particular ASR model, or would like to find out more about the model
+architectures available in the `nemo_asr` collection, check out the :doc:`Models <./models>` page.
+
+Documentation on dataset preprocessing can be found on the :doc:`Datasets <./datasets>` page.
+NeMo includes preprocessing scripts for several common ASR datasets, and this page contains instructions on running
+those scripts.
+It also includes guidance for creating your own NeMo-compatible dataset, if you have your own data.
+
+Information about how to load model checkpoints (either local files or pretrained ones from NGC), as well as a list
+of the checkpoints available on NGC are located on the :doc:`Checkpoints <./results>` page.
+
+>>>TODO: Add more sections for other documentation pages
+
+The full documentation tree is as follows:
 
 .. toctree::
    :maxdepth: 8
