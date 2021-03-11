@@ -1,0 +1,6 @@
+*.wav
+an4/
+configs/
+lightning_logs
+ort/
+qn.onnx
