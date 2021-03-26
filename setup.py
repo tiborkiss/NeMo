@@ -137,7 +137,7 @@ for ix, line in enumerate(install_requires):
         if SUPPORTED_TORCH_VERSION == "torch<=1.7.1":
             install_requires_buffer.append("torchvision==0.8.2")
             install_requires_buffer.append("torchaudio==0.7.2")
-            install_requires_buffer.append("torchtext==0.8.0")
+            install_requires_buffer.append("torchtext==0.8.1")
 
     else:
         install_requires_buffer.append(line)
